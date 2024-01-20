@@ -16,7 +16,7 @@
 #sed -i '/routing/s/^/#/' feeds.conf.default
 #sed -i '/packages/s/^/#/' feeds.conf.default
 
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git lede_luci https://github.com/coolsnowwolf/luci' feeds.conf.default
 #sed -i '$a src-git packages https://github.com/coolsnowwolf/packages' feeds.conf.default
 #sed -i '$a src-git luci https://github.com/coolsnowwolf/luci' feeds.conf.default
@@ -62,9 +62,9 @@ rm -rf ./feeds/packages/net/mosdns
 rm -rf feeds/packages/net/v2ray-geodata
 rm -rf feeds/luci/themes/luci-theme-argon
 
-cd package
-git clone https://github.com/f8q8/luci-app-autoreboot.git 
-cd ..
+#cd package
+#git clone https://github.com/f8q8/luci-app-autoreboot.git 
+#cd ..
 
 
 
